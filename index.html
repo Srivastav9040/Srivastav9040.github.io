@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ayush Kumar Srivastava — QA Engineer</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise"></div>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-dot" id="cursorDot"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">AKS<span class="accent">.</span></div>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <a href="mailto:ayush.technical9040@gmail.com" class="nav-cta">Hire Me</a>
+    <button class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">QA</div>
+    <div class="hero-content">
+      <div class="hero-tag reveal">
+        <span class="dot"></span> Open to opportunities
+      </div>
+      <h1 class="hero-title reveal">
+        <span class="line">Ayush Kumar</span>
+        <span class="line italic">Srivastava</span>
+      </h1>
+      <div class="hero-role reveal">
+        <span id="typed-text"></span><span class="blink-cursor">|</span>
+      </div>
+      <p class="hero-desc reveal">
+        1.5+ years breaking things <em>professionally</em> — 
+        so your users don't have to. QA Engineer specializing in 
+        Automation, API Testing &amp; Performance.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Let's Talk</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-num" data-target="200">0</span><span>+</span>
+          <p>Test Cases</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="60">0</span><span>+</span>
+          <p>Defects Logged</p>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-num" data-target="95">0</span><span>%</span>
+          <p>Defect Acceptance</p>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-wrap">
+        <div class="avatar-ring ring1"></div>
+        <div class="avatar-ring ring2"></div>
+        <div class="avatar-initials">AKS</div>
+        <div class="badge badge-top">QA Engineer</div>
+        <div class="badge badge-bottom">Selenium · Postman</div>
+        <div class="floating-pill pill1">✅ 0 Bugs Shipped</div>
+        <div class="floating-pill pill2">🔁 CI/CD Ready</div>
+        <div class="floating-pill pill3">📊 JMeter Pro</div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </a>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label reveal">01 / About</div>
+      <div class="about-grid">
+        <div class="about-left reveal">
+          <h2 class="section-title">I find the bugs <span class="italic accent-text">before</span> your customers do.</h2>
+          <p>QA Engineer with <strong>1.5+ years</strong> of hands-on experience in manual and automation testing across high-traffic e-commerce platforms. I've worked on products used by <strong>millions</strong> — Shopee &amp; The Home Depot.</p>
+          <p>From writing 200+ test cases to building Selenium frameworks that cut regression effort by 30%, my focus is always: <em>ship quality, not bugs.</em></p>
+          <div class="about-chips">
+            <span>🎓 B.Tech CSE — AKTU 2025</span>
+            <span>📍 New Delhi, India</span>
+            <span>🏆 IEEE INDIACom-2025 Paper</span>
+            <span>🎖️ IIT Kanpur C++ Certified</span>
+          </div>
+        </div>
+        <div class="about-right reveal">
+          <div class="approach-card">
+            <div class="approach-icon">🔍</div>
+            <h4>Shift-Left Tester</h4>
+            <p>Catch bugs early in the SDLC — reduce cost, increase speed.</p>
+          </div>
+          <div class="approach-card">
+            <div class="approach-icon">⚙️</div>
+            <h4>Automation First</h4>
+            <p>Build scalable frameworks with POM, BDD, and CI/CD integration.</p>
+          </div>
+          <div class="approach-card">
+            <div class="approach-icon">📡</div>
+            <h4>API Validator</h4>
+            <p>Deep REST API testing — status codes, auth flows, DB validation.</p>
+          </div>
+          <div class="approach-card">
+            <div class="approach-icon">📈</div>
+            <h4>Performance Aware</h4>
+            <p>JMeter load testing for real-world scalability under 11M+ users.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label reveal">02 / Skills</div>
+      <h2 class="section-title reveal">My <span class="italic accent-text">Tech Arsenal</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <h3><span class="cat-icon">🤖</span> Automation</h3>
+          <div class="skill-bars">
+            <div class="skill-bar" data-skill="Selenium WebDriver" data-level="90"></div>
+            <div class="skill-bar" data-skill="TestNG / JUnit" data-level="85"></div>
+            <div class="skill-bar" data-skill="Cucumber (BDD)" data-level="80"></div>
+            <div class="skill-bar" data-skill="JMeter" data-level="75"></div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><span class="cat-icon">📡</span> API & Tools</h3>
+          <div class="skill-bars">
+            <div class="skill-bar" data-skill="Postman" data-level="90"></div>
+            <div class="skill-bar" data-skill="JIRA / Bugzilla" data-level="88"></div>
+            <div class="skill-bar" data-skill="Git / GitHub" data-level="80"></div>
+            <div class="skill-bar" data-skill="Jenkins (CI/CD)" data-level="72"></div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><span class="cat-icon">💻</span> Languages</h3>
+          <div class="skill-bars">
+            <div class="skill-bar" data-skill="Java" data-level="82"></div>
+            <div class="skill-bar" data-skill="SQL" data-level="78"></div>
+            <div class="skill-bar" data-skill="JavaScript" data-level="65"></div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <h3><span class="cat-icon">🧪</span> Testing Types</h3>
+          <div class="tags-wrap">
+            <span class="tag">Functional</span>
+            <span class="tag">Regression</span>
+            <span class="tag">Smoke & Sanity</span>
+            <span class="tag">Cross-Browser</span>
+            <span class="tag">Performance</span>
+            <span class="tag">API Testing</span>
+            <span class="tag">Black Box</span>
+            <span class="tag">UAT</span>
+            <span class="tag">Integration</span>
+            <span class="tag">E2E Testing</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-label reveal">03 / Experience</div>
+      <h2 class="section-title reveal">Where I've <span class="italic accent-text">Made Impact</span></h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Dec 2024 – Present</div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <h3>QA Engineer</h3>
+              <span class="company-badge">Softogrid Solutions Pvt. Ltd.</span>
+            </div>
+            <p class="location">📍 Noida, India</p>
+            <ul class="timeline-points">
+              <li>Designed and executed <strong>200+ test cases</strong> for functional, regression, smoke & sanity testing</li>
+              <li>Built <strong>Selenium WebDriver + TestNG</strong> scripts, cutting manual regression effort by <strong>~30%</strong></li>
+              <li>Managed full defect lifecycle in JIRA/Bugzilla with <strong>48-hour SLA</strong> closure</li>
+              <li>Performed API testing in Postman — request/response validation, auth flows, error handling</li>
+              <li>Cross-browser testing on Chrome, Firefox, Safari &amp; Edge in Agile sprint cycles</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-label reveal">04 / Projects</div>
+      <h2 class="section-title reveal">Products I've <span class="italic accent-text">Battle-Tested</span></h2>
+      <div class="projects-grid">
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-logo shopee">🛍️</div>
+            <div class="project-type">Manual · API · Regression</div>
+          </div>
+          <h3>Shopee</h3>
+          <p class="project-sub">Southeast Asia's leading e-commerce platform</p>
+          <ul class="project-highlights">
+            <li>Tested end-to-end: search → cart → checkout → payment → order tracking</li>
+            <li>Validated <strong>15+ REST APIs</strong> via Postman with SQL DB integrity checks</li>
+            <li>Logged <strong>60+ defects</strong> in JIRA — <strong>95% acceptance rate</strong></li>
+            <li>Maintained regression suites across multiple releases</li>
+          </ul>
+          <div class="project-tech">
+            <span>Postman</span><span>JIRA</span><span>SQL</span><span>Regression</span>
+          </div>
+        </div>
+
+        <div class="project-card featured reveal">
+          <div class="featured-label">⭐ Featured</div>
+          <div class="project-top">
+            <div class="project-logo homedepot">🏠</div>
+            <div class="project-type">Automation · Performance</div>
+          </div>
+          <h3>The Home Depot</h3>
+          <p class="project-sub">World's largest home improvement retailer</p>
+          <ul class="project-highlights">
+            <li>Automated critical user journeys using <strong>Selenium WebDriver + TestNG</strong></li>
+            <li>JMeter load tests on pages with <strong>11M+ monthly visitors</strong></li>
+            <li>Wrote BDD scenarios in <strong>Cucumber/Gherkin</strong></li>
+            <li>Integrated suite into <strong>Jenkins CI/CD</strong> for faster release cycles</li>
+          </ul>
+          <div class="project-tech">
+            <span>Selenium</span><span>JMeter</span><span>Cucumber</span><span>Jenkins</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="achievements section">
+    <div class="container">
+      <div class="section-label reveal">05 / Achievements</div>
+      <div class="achievements-grid">
+        <div class="achievement-card reveal">
+          <div class="ach-icon">🎓</div>
+          <h4>IIT Kanpur Certified</h4>
+          <p>Student Development Program on C++ by E&amp;ICT Academy, IIT Kanpur</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="ach-icon">📄</div>
+          <h4>IEEE Research Paper</h4>
+          <p>Presented at IEEE INDIACom-2025 International Conference on Computing for Sustainable Global Development</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="ach-icon">🏆</div>
+          <h4>95% Defect Acceptance</h4>
+          <p>Industry-leading defect reporting quality across Shopee e-commerce platform</p>
+        </div>
+        <div class="achievement-card reveal">
+          <div class="ach-icon">⚡</div>
+          <h4>30% Automation Gains</h4>
+          <p>Reduced manual regression effort through scalable Selenium + TestNG framework</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label reveal">06 / Contact</div>
+      <div class="contact-inner">
+        <div class="contact-left reveal">
+          <h2 class="section-title">Let's build<br/><span class="italic accent-text">quality together.</span></h2>
+          <p>Open to QA Engineer roles, freelance testing projects, and collaboration. If you need someone who ships zero bugs — let's talk.</p>
+          <div class="contact-links">
+            <a href="mailto:ayush.technical9040@gmail.com" class="contact-link">
+              <span class="link-icon">✉️</span>
+              <div>
+                <small>Email</small>
+                <p>ayush.technical9040@gmail.com</p>
+              </div>
+            </a>
+            <a href="tel:+918796322861" class="contact-link">
+              <span class="link-icon">📱</span>
+              <div>
+                <small>Phone</small>
+                <p>+91 87963 22861</p>
+              </div>
+            </a>
+            <a href="#" class="contact-link">
+              <span class="link-icon">📍</span>
+              <div>
+                <small>Location</small>
+                <p>New Delhi, India</p>
+              </div>
+            </a>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <label>Your Name</label>
+            <input type="text" placeholder="John Recruiter" required />
+          </div>
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" placeholder="recruiter@company.com" required />
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea rows="4" placeholder="We'd love to have you on our QA team..." required></textarea>
+          </div>
+          <button type="submit" class="btn-primary full-width">Send Message 🚀</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo">AKS<span class="accent">.</span></span>
+        <p>© 2025 Ayush Kumar Srivastava · Built with passion, tested with precision.</p>
+        <p class="footer-tagline">Quality is not an act, it is a habit.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
